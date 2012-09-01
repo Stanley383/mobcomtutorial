@@ -8,6 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
+@class AddRoleTVC;
+@protocol AddRoleTVCDelegate
+- (void)theSaveButtonOnTheAddRoleTVCWasTapped:(AddRoleTVC *)controller;
+@end
+
 @interface AddRoleTVC : UITableViewController
+@property (nonatomic, weak) id <AddRoleTVCDelegate> delegate;
+
+- (IBAction)save:(id)sender;
 
 @end

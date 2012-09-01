@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface RolesTVC : UITableViewController
+#import "AddRoleTVC.h" // so this class can be a AddRoleTVCDelegate
 
+@interface RolesTVC : UITableViewController <AddRoleTVCDelegate>
 @end

@@ -15,6 +15,9 @@
 		3E56CE4815F007B0002565D7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E56CE4715F007B0002565D7 /* AppDelegate.m */; };
 		3E56CE4B15F007B0002565D7 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E56CE4915F007B0002565D7 /* MainStoryboard.storyboard */; };
 		3E56CE4E15F007B0002565D7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E56CE4D15F007B0002565D7 /* ViewController.m */; };
+		3E56CE5515F00808002565D7 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E56CE5415F00808002565D7 /* CoreData.framework */; };
+		3E56CE5815F046E2002565D7 /* RolesTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E56CE5715F046E2002565D7 /* RolesTVC.m */; };
+		3E56CE5B15F0470C002565D7 /* AddRoleTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E56CE5A15F0470C002565D7 /* AddRoleTVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +34,11 @@
 		3E56CE4A15F007B0002565D7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		3E56CE4C15F007B0002565D7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		3E56CE4D15F007B0002565D7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3E56CE5415F00808002565D7 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		3E56CE5615F046E2002565D7 /* RolesTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RolesTVC.h; sourceTree = "<group>"; };
+		3E56CE5715F046E2002565D7 /* RolesTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RolesTVC.m; sourceTree = "<group>"; };
+		3E56CE5915F0470C002565D7 /* AddRoleTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddRoleTVC.h; sourceTree = "<group>"; };
+		3E56CE5A15F0470C002565D7 /* AddRoleTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddRoleTVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E56CE5515F00808002565D7 /* CoreData.framework in Frameworks */,
 				3E56CE3815F007B0002565D7 /* UIKit.framework in Frameworks */,
 				3E56CE3A15F007B0002565D7 /* Foundation.framework in Frameworks */,
 				3E56CE3C15F007B0002565D7 /* CoreGraphics.framework in Frameworks */,
@@ -50,6 +59,7 @@
 		3E56CE2815F007AF002565D7 = {
 			isa = PBXGroup;
 			children = (
+				3E56CE5415F00808002565D7 /* CoreData.framework */,
 				3E56CE3D15F007B0002565D7 /* CoreDataMobCom2012 */,
 				3E56CE3615F007AF002565D7 /* Frameworks */,
 				3E56CE3415F007AF002565D7 /* Products */,
@@ -80,6 +90,10 @@
 				3E56CE4615F007B0002565D7 /* AppDelegate.h */,
 				3E56CE4715F007B0002565D7 /* AppDelegate.m */,
 				3E56CE4915F007B0002565D7 /* MainStoryboard.storyboard */,
+				3E56CE5615F046E2002565D7 /* RolesTVC.h */,
+				3E56CE5715F046E2002565D7 /* RolesTVC.m */,
+				3E56CE5915F0470C002565D7 /* AddRoleTVC.h */,
+				3E56CE5A15F0470C002565D7 /* AddRoleTVC.m */,
 				3E56CE4C15F007B0002565D7 /* ViewController.h */,
 				3E56CE4D15F007B0002565D7 /* ViewController.m */,
 				3E56CE3E15F007B0002565D7 /* Supporting Files */,
@@ -164,6 +178,8 @@
 				3E56CE4415F007B0002565D7 /* main.m in Sources */,
 				3E56CE4815F007B0002565D7 /* AppDelegate.m in Sources */,
 				3E56CE4E15F007B0002565D7 /* ViewController.m in Sources */,
+				3E56CE5815F046E2002565D7 /* RolesTVC.m in Sources */,
+				3E56CE5B15F0470C002565D7 /* AddRoleTVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
